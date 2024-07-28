@@ -1,0 +1,1 @@
+curl https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/gateway/lists  --header "X-Auth-Email: ${CLOUDFLARE_EMAIL}" --header "X-Auth-Key: ${CLOUDFLARE_API_KEY}" --header "Content-Type: application/json" | jq -r '.result[].id' > list_ids.txt

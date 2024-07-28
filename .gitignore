@@ -1,0 +1,4 @@
+.venv/
+.work/
+export_env.sh
+list_ids.txt
